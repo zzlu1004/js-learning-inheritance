@@ -21,8 +21,8 @@ s1.play.push(4)
 console.log(s1.play, s2.play)
 
 ```
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
-缺点：
+![Image text](https://github.com/zzlu1004/js-learning/blob/main/images/1-%E5%8E%9F%E5%9E%8B%E9%93%BE%E7%BB%A7%E6%89%BF.png)
+#### 缺点：
 多个实例指向同一个父类原型对象，修改实例s1中原型对象的某个属性时，另一个也会跟着发生改变。
 
 
